@@ -16,8 +16,14 @@ Stay organized and manage your tasks efficiently with the TODO App! Start using 
 
 
 ## description
+ The script selects various elements from the HTML document using their respective IDs and classes. It also initializes variables to keep track of the task count and task IDs. The addTask function is defined to add a new task to the list, create the necessary HTML elements for displaying the task, and handle the logic for completing tasks, editing tasks, and deleting tasks. 
 
+The code sets up event listeners for the Add button to add a new task and handles the onload event to reset the task count and input field when the page loads.
+
+Overall, this JavaScript code enhances the functionality of the To-Do App by allowing users to interact with the tasks dynamically, including marking tasks as completed, editing task names, and deleting tasks.
 #### support and details
+-[git@github.com:hit-sharq/hit-sharq.git](git@github.com:hit-sharq/hit-sharq.git)
+-leeroyjoshu087@gmail.com
 
 ### licence
 MIT License
