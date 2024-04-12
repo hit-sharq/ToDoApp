@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background:linear-gradient(rgb(238, 231, 231) 50%, lightblue 50%);
+}
+.app {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: min(95vw, 31.25cm);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 1.0cm;
+
+}
+.container {
+    padding: 2cm 2.5cm;
+    background-color: white;
+    box-shadow: 0 1cm 2 color-mix(in hsl shorter hue, color percentage, color percentage);
+    border-radius: 1.0cm;
+}
+#wrapper {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 8fr 8fr;
+    gap: 1cm;
+}
+#wrapper input{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.0cm;
+    border: none;
+    border-top: 2px solid #d1d1d1;
+    padding: 1cm 0.5cm;
+}
+#wrapper input:focus {
+    outline: none;
+    border-color: blue;
+}
+#wrapper button {
+    position: relative;
+    border-radius: 0.6cm;
+    font-weight: 500;
+    background-color: blue;
+    border: none;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+#error{
+    text-align: center;
+    background-color: #FFFF;
+    color: red;
+    margin-top: 1.5cm;
+    padding: 0% 0;
+    border-radius: 0.8cm;
+    display: none;
+
+}
+#tasks {
+    margin-top: 1cm;
+    border-radius: 0.5cm;
+    width: 100%;
+    position: relative;
+    padding: 1cm 0.5cm;
+}
+.task{
+    background-color: white;
+    padding: 0.8cm 1cm;
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr 2fr ;
+    gap: 1cm;
+    border-radius: 0.5cm;
+    box-shadow: 0 0.5cm 1cm rgba(0, 0, 0, 0);
+    align-items: center;
+    cursor: pointer;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
